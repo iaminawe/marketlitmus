@@ -11,9 +11,6 @@
     profiler_v2('marketlitmus');
 
 
-function marketlitmus_install() {
-      // custom setup code to be run after profiler module finishes
- 
 
 /**
  * Return a description of the profile for the initial installation screen. 
@@ -41,10 +38,11 @@ function marketlitmus_profile_details() {
  * @return
  *   An array of modules to enable.
 
+ */
 function marketlitmus_profile_modules() {
   return profiler_profile_modules('marketlitmus');
 }
- */
+
 
 /**
  * Return a list of tasks that this profile supports.
@@ -78,5 +76,3 @@ function marketlitmus_profile_tasks(&$task, $url) {
 }
 
  */
-
-   }
