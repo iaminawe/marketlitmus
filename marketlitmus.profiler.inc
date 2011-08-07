@@ -36,7 +36,7 @@
 
 name = Market Litmus
 core = 7.x
-theme = rubik
+theme = Rubik
 
 
 ; -----------------------------------------------------------------------------
@@ -44,7 +44,7 @@ theme = rubik
 ; your own Install profile's Profiler include. Then everything in this file
 ; would be merged with your Profiler include:
 ; -----------------------------------------------------------------------------
-;base = profiler_example
+base = marketlitmus
 
 
 ; -----------------------------------------------------------------------------
@@ -93,7 +93,7 @@ modules[contrib][] = transliteration
 ;                                  Features
 ; -----------------------------------------------------------------------------
 ; Specify features thusly:
-features[] = example_feature
+features[] = simple_config
 
 
 ; -----------------------------------------------------------------------------
