@@ -21,6 +21,7 @@
  *   and optional 'language' to override the language selection for
  *   language-specific profiles. Profiler also looks to 'path' to discover 
  *   the path of the Profiler include.
+ */
 
 function marketlitmus_profile_details() {
   return array(
@@ -30,7 +31,7 @@ function marketlitmus_profile_details() {
   );
 }
 
- */
+
 
 /**
  * Return an array of the modules to be enabled when this profile is installed.
