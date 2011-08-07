@@ -8,7 +8,7 @@
  */
 
     !function_exists('profiler_v2') ? require_once('libraries/profiler/profiler.inc') : FALSE;
-    profiler_v2('yourprofile');
+    profiler_v2('marketlitmus');
 
 /**
  * Return a description of the profile for the initial installation screen. 
