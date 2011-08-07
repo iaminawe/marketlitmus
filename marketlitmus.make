@@ -112,7 +112,6 @@ projects[views_slideshow][version] = "3.0-alpha1"
 ;projects[lightbox2][subdir] = "contrib"
 
 ; THEMES			
-=================================
 projects[layoutstudio][type] = "theme"
 ;projects[rubik][type] = "theme"
 ;projects[tao][type] = "theme"
