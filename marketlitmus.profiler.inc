@@ -1,5 +1,3 @@
-; $Id: profiler_example.profiler.inc,v 1.1 2010/03/24 00:39:09 q0rban Exp $
-
 ; -----------------------------------------------------------------------------
 ;                             Introduction
 ; -----------------------------------------------------------------------------
@@ -36,9 +34,9 @@
 ; - blocks
 ; -----------------------------------------------------------------------------
 
-name = Profiler Example
-core = 6.x
-theme = chameleon
+name = Market Litmus
+core = 7.x
+theme = Rubik
 
 
 ; -----------------------------------------------------------------------------
@@ -46,7 +44,7 @@ theme = chameleon
 ; your own Install profile's Profiler include. Then everything in this file
 ; would be merged with your Profiler include:
 ; -----------------------------------------------------------------------------
-;base = profiler_example
+;base = marketlitmus
 
 
 ; -----------------------------------------------------------------------------
@@ -95,7 +93,7 @@ modules[contrib][] = transliteration
 ;                                  Features
 ; -----------------------------------------------------------------------------
 ; Specify features thusly:
-;features[] = example_feature
+features[] = simple_config
 
 
 ; -----------------------------------------------------------------------------
@@ -186,47 +184,7 @@ input-formats[markdown][filters][filter][2] = -9
 input-formats[markdown][filters][filter][3] = -6
 input-formats[markdown][allowed-html] = "<a> <p> <em> <strong> <span> <h1> <h2> <h3> <h4> <h5> <blockquote> <cite> <code> <ul> <ol> <li> <dl> <dt> <dd> <img> <table> <thead> <tbody> <tfoot> <th> <tr> <td>"
 
-input-formats[wysiwyg][name] = WYSIWYG
-input-formats[wysiwyg][roles] = Admin,Publisher
-input-formats[wysiwyg][filters][filter][0] = -8
-input-formats[wysiwyg][filters][filter][1] = -7
-input-formats[wysiwyg][filters][filter][2] = -9
-input-formats[wysiwyg][filters][filter][3] = -6
-input-formats[wysiwyg][allowed-html] = "<a> <p> <em> <strong> <span> <h1> <h2> <h3> <h4> <h5> <blockquote> <cite> <code> <ul> <ol> <li> <dl> <dt> <dd> <img> <table> <thead> <tbody> <tfoot> <th> <tr> <td>"
-input-formats[wysiwyg][wysiwyg][editor] = tinymce
-input-formats[wysiwyg][wysiwyg][settings][default] = 1
-input-formats[wysiwyg][wysiwyg][settings][user_choose] = 0
-input-formats[wysiwyg][wysiwyg][settings][show_toggle] = 0
-input-formats[wysiwyg][wysiwyg][settings][theme] = advanced
-input-formats[wysiwyg][wysiwyg][settings][language] = en
-input-formats[wysiwyg][wysiwyg][settings][buttons][default][bold] = 1
-input-formats[wysiwyg][wysiwyg][settings][buttons][default][italic] = 1
-input-formats[wysiwyg][wysiwyg][settings][buttons][default][underline] = 1
-input-formats[wysiwyg][wysiwyg][settings][buttons][default][bullist] = 1
-input-formats[wysiwyg][wysiwyg][settings][buttons][default][numlist] = 1
-input-formats[wysiwyg][wysiwyg][settings][buttons][default][outdent] = 1
-input-formats[wysiwyg][wysiwyg][settings][buttons][default][indent] = 1
-input-formats[wysiwyg][wysiwyg][settings][buttons][default][link] = 1
-input-formats[wysiwyg][wysiwyg][settings][buttons][default][unlink] = 1
-input-formats[wysiwyg][wysiwyg][settings][buttons][default][image] = 1
-input-formats[wysiwyg][wysiwyg][settings][buttons][paste][pastetext] = 1
-input-formats[wysiwyg][wysiwyg][settings][buttons][font][formatselect] = 1
-input-formats[wysiwyg][wysiwyg][settings][buttons][font][styleselect] = 1
-input-formats[wysiwyg][wysiwyg][settings][buttons][table][tablecontrols] = 1
-input-formats[wysiwyg][wysiwyg][settings][buttons][safari][safari] = 1
-input-formats[wysiwyg][wysiwyg][settings][buttons][imce][imce] = 1
-input-formats[wysiwyg][wysiwyg][settings][toolbar_loc] = top
-input-formats[wysiwyg][wysiwyg][settings][toolbar_align] = left
-input-formats[wysiwyg][wysiwyg][settings][path_loc] = bottom
-input-formats[wysiwyg][wysiwyg][settings][resizing] = 1
-input-formats[wysiwyg][wysiwyg][settings][verify_html] = 1
-input-formats[wysiwyg][wysiwyg][settings][preformatted] = 0
-input-formats[wysiwyg][wysiwyg][settings][convert_fonts_to_spans] = 1
-input-formats[wysiwyg][wysiwyg][settings][remove_linebreaks] = 1
-input-formats[wysiwyg][wysiwyg][settings][apply_source_formatting] = 0
-input-formats[wysiwyg][wysiwyg][settings][paste_auto_cleanup_on_paste] = 0
-input-formats[wysiwyg][wysiwyg][settings][block_formats] = p,h2,h3,h4,h5,blockquote
-input-formats[WYSIWYG][wysiwyg][settings][css_classes] = "Highlight=highlight
+
 Float Left=left
 Float Right=right"
 
@@ -242,10 +200,10 @@ Float Right=right"
 ; variables need to be set if you want to bypass the Configuration form during 
 ; installation (@see Users for more information on how this is accomplished).
 ; -----------------------------------------------------------------------------
-variables[site_name] = Profiler Example
-variables[site_mail] = testing@testing
+variables[site_name] = Market Litmus 
+variables[site_mail] = gregg@iaminawe.com
 
-variables[site_footer] = Profiler Example
+variables[site_footer] = Market Litmus Footer
 variables[site_frontpage] = node/1
 variables[theme_settings][toggle_node_info_page] = 0
 

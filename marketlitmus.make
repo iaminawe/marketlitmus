@@ -1,8 +1,8 @@
 api = 2
 core = 7.x
 
-; Build Kit 7.x-2.0-beta2
-includes[] = http://drupalcode.org/project/buildkit.git/blob_plain/refs/tags/7.x-2.0-beta2:/drupal-org.make
+; Include Build Kit install profile makefile via URL
+includes[] = http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.x-2.x:/drupal-org.make
 
 ;--------------------
 ; Build Kit overrides

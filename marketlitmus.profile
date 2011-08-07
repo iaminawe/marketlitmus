@@ -11,9 +11,6 @@
     profiler_v2('marketlitmus');
 
 
-function marketlitmus_install() {
-      // custom setup code to be run after profiler module finishes
- 
 
 /**
  * Return a description of the profile for the initial installation screen. 
@@ -25,6 +22,7 @@ function marketlitmus_install() {
  *   language-specific profiles. Profiler also looks to 'path' to discover 
  *   the path of the Profiler include.
  */
+
 function marketlitmus_profile_details() {
   return array(
     'name' => 'Market Litmus Test Profile',
@@ -40,10 +38,12 @@ function marketlitmus_profile_details() {
  *
  * @return
  *   An array of modules to enable.
+
  */
 function marketlitmus_profile_modules() {
   return profiler_profile_modules('marketlitmus');
 }
+
 
 /**
  * Return a list of tasks that this profile supports.
@@ -53,9 +53,11 @@ function marketlitmus_profile_modules() {
  *   keys of the array will be used internally, while the values will be 
  *   displayed to the user in the installer task list.
  */
+
 function marketlitmus_profile_task_list() {
   return profiler_profile_task_list('marketlitmus');
 }
+
 
 /**
  * Perform any final installation tasks for this profile.
@@ -71,7 +73,9 @@ function marketlitmus_profile_task_list() {
  *   An optional HTML string to display to the user. Only used if you modify 
  *   the $task, otherwise discarded.
  */
+
 function marketlitmus_profile_tasks(&$task, $url) {
   profiler_profile_tasks('marketlitmus', $task, $url);
 }
-   }
+
+
