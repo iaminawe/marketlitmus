@@ -11,11 +11,11 @@ function simple_config_default_box() {
   $box->api_version = 1;
   $box->delta = 'welcome';
   $box->plugin_key = 'simple';
-  $box->title = 'Welcome to Simple';
+  $box->title = 'Welcome to Market Litmus';
   $box->description = 'Welcome box';
   $box->options = array(
     'body' => array(
-      'value' => 'Simple is an example Drupal 7 distribution. [Fork this project on GitHub](https://github.com/sprice/simple).',
+      'value' => 'Congratulations on launching your new site using market litmus. Please make sure to read some of our helpful support guides to undestand how to get the most out of your mini-sales site',
       'format' => 'markdown',
     ),
   );
