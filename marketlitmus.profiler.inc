@@ -1,5 +1,3 @@
-; $Id: profiler_example.profiler.inc,v 1.1 2010/03/24 00:39:09 q0rban Exp $
-
 ; -----------------------------------------------------------------------------
 ;                             Introduction
 ; -----------------------------------------------------------------------------
@@ -36,9 +34,9 @@
 ; - blocks
 ; -----------------------------------------------------------------------------
 
-name = Profiler Example
-core = 6.x
-theme = chameleon
+name = Market Litmus
+core = 7.x
+theme = rubik
 
 
 ; -----------------------------------------------------------------------------
@@ -95,7 +93,7 @@ modules[contrib][] = transliteration
 ;                                  Features
 ; -----------------------------------------------------------------------------
 ; Specify features thusly:
-;features[] = example_feature
+features[] = example_feature
 
 
 ; -----------------------------------------------------------------------------
@@ -242,10 +240,10 @@ Float Right=right"
 ; variables need to be set if you want to bypass the Configuration form during 
 ; installation (@see Users for more information on how this is accomplished).
 ; -----------------------------------------------------------------------------
-variables[site_name] = Profiler Example
-variables[site_mail] = testing@testing
+variables[site_name] = Market Litmus 
+variables[site_mail] = gregg@iaminawe.com
 
-variables[site_footer] = Profiler Example
+variables[site_footer] = Market Litmus Footer
 variables[site_frontpage] = node/1
 variables[theme_settings][toggle_node_info_page] = 0
 
