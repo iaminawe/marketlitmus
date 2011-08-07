@@ -67,19 +67,3 @@ function marketlitmus_profile_task_list() {
 function marketlitmus_profile_tasks(&$task, $url) {
   profiler_profile_tasks('marketlitmus', $task, $url);
 }
-
-/**
- * Implementation of hook_form_alter().
- *
- * Allows the profile to alter the site-configuration form. This is called 
- * through custom invocation, so $form_state is not populated.
- *
- * This function is unnecessary for your profile to work, however if you'd like 
- * to bypass the Configuration form during installation and set all those 
- * variables by hand in your Profiler include, you'll need this function in your 
- * install profile.
-
-function marketlitmus_form_alter(&$form, $form_state, $form_id) {
-  profiler_form_alter('marketlitmus', $form, $form_state, $form_id);
-}
- */
