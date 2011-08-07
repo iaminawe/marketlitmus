@@ -96,7 +96,9 @@ modules[contrib][] = backup_migrate
 modules[contrib][] = transliteration
 modules[contrib][] = views_bulk_operations
 
-
+modules[contrib][] = sweaver
+modules[contrib][] = fontyourface
+modules[contrib][] = editablefield
 ; -----------------------------------------------------------------------------
 ;                                  Features
 ; -----------------------------------------------------------------------------
