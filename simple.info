@@ -1,6 +1,6 @@
-name = Simple
+name = Market Litmus
 core = 7.x
-description = A simple distro. Based on Build Kit.
+description = A simple distro for the Market Litmus product. Based on Build Kit & Simple.
 
 ; Core
 dependencies[] = block
