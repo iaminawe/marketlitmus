@@ -52,11 +52,12 @@ function marketlitmus_profile_modules() {
  *   A keyed array of tasks the profile will perform during the final stage. The 
  *   keys of the array will be used internally, while the values will be 
  *   displayed to the user in the installer task list.
+ */
 
 function marketlitmus_profile_task_list() {
   return profiler_profile_task_list('marketlitmus');
 }
- */
+
 
 /**
  * Perform any final installation tasks for this profile.
@@ -71,9 +72,10 @@ function marketlitmus_profile_task_list() {
  * @return
  *   An optional HTML string to display to the user. Only used if you modify 
  *   the $task, otherwise discarded.
+ */
 
 function marketlitmus_profile_tasks(&$task, $url) {
   profiler_profile_tasks('marketlitmus', $task, $url);
 }
 
- */
+
