@@ -10,6 +10,11 @@
     !function_exists('profiler_v2') ? require_once('libraries/profiler/profiler.inc') : FALSE;
     profiler_v2('marketlitmus');
 
+
+function marketlitmus_install() {
+      // custom setup code to be run after profiler module finishes
+ 
+
 /**
  * Return a description of the profile for the initial installation screen. 
  * Profiler also calls this function for details about your Profiler include.
@@ -29,9 +34,6 @@ function marketlitmus_profile_details() {
 }
 
 
-function marketlitmus_install() {
-      // custom setup code to be run after profiler module finishes
- 
 
 /**
  * Return an array of the modules to be enabled when this profile is installed.
