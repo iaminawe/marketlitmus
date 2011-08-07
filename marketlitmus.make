@@ -114,8 +114,8 @@ projects[views_slideshow][version] = "3.0-alpha1"
 ; THEMES			
 =================================
 projects[layoutstudio][type] = "theme"
-projects[rubik][type] = "theme"
-projects[tao][type] = "theme"
+;projects[rubik][type] = "theme"
+;projects[tao][type] = "theme"
 
 ;projects[tao][subdir] = contrib
 ;projects[rubik][subdir] = contrib
