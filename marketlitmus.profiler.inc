@@ -54,27 +54,32 @@ theme = Rubik
 ; You can create your own arrays as well, such as 'custom'. Any other arrays
 ; will get installed at the same time as all contrib modules do.
 ; -----------------------------------------------------------------------------
+modules[core][] = block
+modules[core][] = contextual_links
+modules[core][] = dashboard
 modules[core][] = filter
 modules[core][] = help
 modules[core][] = menu
+modules[core][] = image
+modules[core][] = overlay
 modules[core][] = node
 modules[core][] = path
 modules[core][] = system
 modules[core][] = user
+modules[core][] = toolbar
+
+modules-unset[core]=contact
 
 ; Contrib
 modules[contrib][] = admin_menu
-modules[contrib][] = date_api
-modules[contrib][] = imageapi
-modules[contrib][] = imageapi_gd
-modules[contrib][] = imagecache
-modules[contrib][] = imagecache_ui
+;modules[contrib][] = date_api
 modules[contrib][] = token
 modules[contrib][] = globalredirect
-modules[contrib][] = content
 modules[contrib][] = fieldgroup
-modules[contrib][] = filefield
-modules[contrib][] = imagefield
+modules[contrib][] = email
+modules[contrib][] = link
+modules[contrib][] = nodereference
+modules[contrib][] = references
 modules[contrib][] = number
 modules[contrib][] = optionwidgets
 modules[contrib][] = text
@@ -84,9 +89,12 @@ modules[contrib][] = views_exporter
 modules[contrib][] = advanced_help
 modules[contrib][] = features
 modules[contrib][] = pathauto
-modules[contrib][] = wysiwyg
+modules[contrib][] = ckeditor
 modules[contrib][] = markdown
+modules[contrib][] = pathauto
+modules[contrib][] = backup_migrate
 modules[contrib][] = transliteration
+modules[contrib][] = views_bulk_operations
 
 
 ; -----------------------------------------------------------------------------
@@ -94,6 +102,7 @@ modules[contrib][] = transliteration
 ; -----------------------------------------------------------------------------
 ; Specify features thusly:
 features[] = simple_config
+features[] = product_features
 
 
 ; -----------------------------------------------------------------------------
@@ -117,8 +126,8 @@ features[] = simple_config
 roles[admin] = Admin
 
 ; METHOD 2
-roles[publisher][rid] = 4
-roles[publisher][name] = Publisher
+roles[manager][rid] = 3
+roles[manager][name] = Manager
 
 
 ; -----------------------------------------------------------------------------
@@ -136,18 +145,18 @@ roles[publisher][name] = Publisher
 ; site name and site email variables (@see Variables below). 
 ; -----------------------------------------------------------------------------
 
-users[superduper][uid]    = 1
-users[superduper][name]   = admin
-users[superduper][mail]   = admin@admin
-users[superduper][pass]   = 10aa208e7e9e257a3f4fe66d1acf84e8
-users[superduper][roles]  = Admin,Publisher
-users[superduper][status] = 1
+;users[superduper][uid]    = 1
+;users[superduper][name]   = admin
+;users[superduper][mail]   = admin@admin
+;users[superduper][pass]   = 10aa208e7e9e257a3f4fe66d1acf84e8
+;users[superduper][roles]  = Admin,Publisher
+;users[superduper][status] = 1
 
 users[siteadmin][uid]    = 2
-users[siteadmin][name]   = siteadmin
+users[siteadmin][name]   = sitemanager
 users[siteadmin][mail]   = changeme@changeme
 users[siteadmin][pass]   = 10aa208e7e9e257a3f4fe66d1acf84e8
-users[siteadmin][roles]  = Admin,Publisher
+users[siteadmin][roles]  = Admin,Manager
 users[siteadmin][status] = 1
 
 
