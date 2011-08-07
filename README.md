@@ -1,8 +1,8 @@
-## The market litmus drupal distribution.
+## The Market Litmus Drupal distribution.
 
 ### Build
 
-Copy the `simple_distro.make` file to your system and run with `drush make`
+Copy the `marketlitmus_distro.make` file to your system and run with `drush make`
 
     $ curl -O https://github.com/iaminawe/marketlitmus/raw/master/marketlitmus_distro.make
     $ drush make --working-copy marketlitmus_distro.make marketlitmus
