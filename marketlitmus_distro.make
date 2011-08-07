@@ -6,4 +6,4 @@ includes[] = http://drupalcode.org/project/buildkit.git/blob_plain/refs/tags/7.x
 
 projects[marketlitmus][type] = profile
 projects[marketlitmus][download][type] = git
-projects[marketlitmus][download][url] = git://github.com/iaminawe/marketlitmus.git?login=iaminawe&token=6e800e26f996ee02afddf7b0514d9260
+projects[marketlitmus][download][url] = git://github.com/iaminawe/marketlitmus.git
