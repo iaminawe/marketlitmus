@@ -78,7 +78,8 @@ function marketlitmus_profile_tasks(&$task, $url) {
  * to bypass the Configuration form during installation and set all those 
  * variables by hand in your Profiler include, you'll need this function in your 
  * install profile.
- */
+
 function marketlitmus_form_alter(&$form, $form_state, $form_id) {
   profiler_form_alter('marketlitmus', $form, $form_state, $form_id);
 }
+ */
