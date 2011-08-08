@@ -25,7 +25,7 @@
 
 function marketlitmus_profile_details() {
   return array(
-    'name' => 'Market Litmus Test Profile',
+    'name' => 'Market Litmus Install',
     'description' => 'The Market Litmus Install profile that uses Profiler.',
     'path' => dirname(__FILE__),
   );
