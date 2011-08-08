@@ -31,7 +31,7 @@ dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = sweaver
 dependencies[] = fontyourface
-dependencies[] = editablefield
+dependencies[] = editablefields
 
 
 ; Custom
