@@ -44,7 +44,7 @@ theme = Bartik
 ; your own Install profile's Profiler include. Then everything in this file
 ; would be merged with your Profiler include:
 ; -----------------------------------------------------------------------------
-;base = marketlitmus
+base = marketlitmus
 
 
 ; -----------------------------------------------------------------------------
@@ -95,10 +95,10 @@ modules[contrib][] = pathauto
 modules[contrib][] = backup_migrate
 modules[contrib][] = transliteration
 modules[contrib][] = views_bulk_operations
-
+Y
 modules[contrib][] = sweaver
 modules[contrib][] = fontyourface
-modules[contrib][] = editablefield
+modules[contrib][] = editablefields
 ; -----------------------------------------------------------------------------
 ;                                  Features
 ; -----------------------------------------------------------------------------
