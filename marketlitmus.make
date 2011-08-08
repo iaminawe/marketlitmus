@@ -57,7 +57,9 @@ projects[single_page_website][subdir] = "contrib"
 
 ; DESIGN CUSTOMIZATION
 projects[sweaver][subdir] = "contrib"
+projects[sweaver][version] = "1.x-dev"
 projects[fontyourface][subdir] = "contrib"
+projects[fontyourface][version] = "1.x-dev"
 
 ; SOCIAL STUFF
 projects[twitter_pull][subdir] = "contrib"
