@@ -1,0 +1,54 @@
+<?php
+
+include_once('debut_section.features.inc');
+
+/**
+ * Implements hook_init().
+ */
+function debut_section_init() {
+  drupal_add_css(drupal_get_path('module', 'debut_section') . '/debut_section.css');
+}
+
+/**
+ * Implements hook_node_view().
+ *
+ * Unset book navigation for the section content type and ensure sections
+ * children are of type section.
+ */
+function debut_section_node_view($node) {
+  if ($node->type == 'section') {
+    unset($node->content['book_navigation']);
+    if (isset($node->content['links']) && isset($node->content['links']['book']) && isset($node->content['links']['book']['#links']['book_add_child'])) {
+      $node->content['links']['book']['#links']['book_add_child']['href'] = 'node/add/section';
+    }
+  }
+}
+
+/**
+ * Implements hook_enable().
+ *
+ * Ensure section is an allowed book type. We do this here rather than
+ * in a Strongarm variable to avoid overriding other feature's use
+ * of book.
+ */
+function debut_section_enable() {
+  $types = variable_get('book_allowed_types', array('book'));
+  if (!in_array('section', $types)) {
+    $types[] = 'section';
+    variable_set('book_allowed_types', $types);
+  }
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ *
+ * When creating a new section not part of an existing book, default to new
+ * book if the user has permission.
+ */
+function debut_section_form_section_node_form_alter(&$form, $form_state) {
+  // 'new' will be an option only if the user has permission to create books.
+  if (!isset($form['#node']->nid) && isset($form['book']) && $form['book']['bid']['#default_value'] === 0 && isset($form['book']['bid']['#options']['new'])) {
+    $form['book']['bid']['#default_value'] = 'new';
+  }
+}
+
