@@ -53,11 +53,41 @@ projects[spaces][version] = "1.x-dev"
 ;git clone --branch 7.x-1.x http://git.drupal.org/sandbox/webflo/1179340.git
 
 ;--------------------
-; Setup CKEDITOR from custom feature based on debut wysiwyg
+; Setup Debut & CKEDITOR from custom feature based on debut wysiwyg
 ;--------------------
 includes[debut] = "http://drupalcode.org/project/debut.git/blob_plain/refs/heads/7.x-1.x:/debut.make.inc"
 
 includes[debut_wysiwyg]="https://github.com/iaminawe/openoutreach/blob/master/profiles/openoutreach/modules/contrib/debut_wysiwyg/debut_wysiwyg.make.inc"
+
+; Contrib modules
+projects[debut][subdir] = contrib
+projects[debut][version] = 1.0-beta2
+projects[features][subdir] = contrib
+projects[features][version] = 1.0-beta2
+projects[features][patch][http://drupal.org/files/issues/features_views_fix-drush-make-1097560-53.patch] = http://drupal.org/files/issues/features_views_fix-drush-make-1097560-53.patch
+
+; Contrib modules
+projects[advanced_help][subdir] = contrib
+projects[advanced_help][version] = 1.0-beta1
+projects[debut][subdir] = contrib
+projects[debut][version] = 1.0-beta2
+projects[debut_wysiwyg][subdir] = contrib
+projects[debut_wysiwyg][version] = 1.0-beta2
+projects[entity][subdir] = contrib
+projects[entity][version] = 1.0-beta8
+projects[features][subdir] = contrib
+projects[features][version] = 1.0-beta2
+projects[features][patch][http://drupal.org/files/issues/features_views_fix-drush-make-1097560-53.patch] = http://drupal.org/files/issues/features_views_fix-drush-make-1097560-53.patch
+projects[libraries][subdir] = contrib
+projects[libraries][version] = 1.0
+projects[media][subdir] = contrib
+projects[media][version] = 1.0-beta4
+projects[styles][subdir] = contrib
+projects[styles][version] = 2.0-alpha5
+projects[wysiwyg][subdir] = contrib
+; Need dev until 2.1 is posted and http://drupal.org/node/1034476 is in stable.
+projects[wysiwyg][version] = 2.x-dev
+projects[wysiwyg][patch][] = http://drupal.org/files/issues/624018-138-wysiwyg-entity-exportables.patch
 
 
 projects[single_page_website][subdir] = "contrib"
