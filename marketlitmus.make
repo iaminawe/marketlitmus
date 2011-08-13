@@ -20,8 +20,8 @@ projects[rubik][patch][999582] = http://drupal.org/files/issues/999582-1_notices
 projects[boxes][subdir] = contrib
 projects[boxes][version] = 1.0-beta2
 
-projects[markdown][subdir] = contrib
-projects[markdown][version] = 1.0-beta1
+;projects[markdown][subdir] = contrib
+;projects[markdown][version] = 1.0-beta1
 
 ; Creates invalid HTML with preformatted blocks.
 ; http://drupal.org/node/684554
@@ -40,7 +40,7 @@ projects[globalredirect][subdir] = "contrib"
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.x-dev"
 projects[webform][subdir] = "contrib"
-projects[ckeditor][subdir] = "contrib"
+
 projects[typogrify][subdir] = "contrib"
 projects[layoutstudio_extras][subdir] = "contrib"
 projects[browserclass][subdir] = "contrib"
@@ -51,6 +51,13 @@ projects[spaces][version] = "1.x-dev"
 
 ;DEV VERSION OF PURL - still to do correct download
 ;git clone --branch 7.x-1.x http://git.drupal.org/sandbox/webflo/1179340.git
+
+;--------------------
+; Setup CKEDITOR from custom feature based on debut wysiwyg
+;--------------------
+includes[debut] = "http://drupalcode.org/project/debut.git/blob_plain/refs/heads/7.x-1.x:/debut.make.inc"
+
+includes[debut_wysiwyg]="https://github.com/iaminawe/openoutreach/blob/master/profiles/openoutreach/modules/contrib/debut_wysiwyg/debut_wysiwyg.make.inc"
 
 
 projects[single_page_website][subdir] = "contrib"
