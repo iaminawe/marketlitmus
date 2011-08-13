@@ -36,7 +36,7 @@
 
 name = Market Litmus
 core = 7.x
-theme = Bartik
+theme = Market Litmus
 
 
 ; -----------------------------------------------------------------------------
@@ -89,22 +89,26 @@ modules[contrib][] = views_exporter
 modules[contrib][] = advanced_help
 modules[contrib][] = features
 modules[contrib][] = pathauto
-modules[contrib][] = ckeditor
 modules[contrib][] = markdown
 modules[contrib][] = pathauto
 modules[contrib][] = backup_migrate
 modules[contrib][] = transliteration
 modules[contrib][] = views_bulk_operations
-Y
+
 modules[contrib][] = sweaver
 modules[contrib][] = fontyourface
 modules[contrib][] = editablefields
+
+
+
 ; -----------------------------------------------------------------------------
 ;                                  Features
 ; -----------------------------------------------------------------------------
 ; Specify features thusly:
 features[] = simple_config
 features[] = product_features
+features[] = debut
+features[] = debut_wysiwyg
 
 
 ; -----------------------------------------------------------------------------
