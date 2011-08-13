@@ -32,9 +32,12 @@ dependencies[] = views_ui
 dependencies[] = sweaver
 dependencies[] = fontyourface
 dependencies[] = editablefields
+dependencies[] = wysiwyg
 
 
 ; Custom
 
 dependencies[] = simple_config
 dependencies[] = product_features
+dependencies[] = debut
+dependencies[] = debut_wysiwyg
