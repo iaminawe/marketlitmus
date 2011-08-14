@@ -51,11 +51,6 @@ projects[ctools][subdir] = "contrib"
 ;DEV VERSION OF PURL - still to do correct download
 ;git clone --branch 7.x-1.x http://git.drupal.org/sandbox/webflo/1179340.git
 
-;--------------------
-; Setup Debut & CKEDITOR from custom feature based on debut wysiwyg
-;--------------------
-;includes[debut] = "http://drupalcode.org/project/debut.git/blob_plain/refs/heads/7.x-1.x:/debut.make.inc"
-
 
 
 
@@ -63,10 +58,6 @@ projects[ctools][subdir] = "contrib"
 ; Contrib modules
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0-beta1
-projects[debut][subdir] = contrib
-projects[debut][version] = 1.0-beta2
-projects[ckeditor_wysiwyg][subdir] = contrib
-projects[ckeditor_wysiwyg][version] = 1.0-beta2
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-beta8
 projects[features][subdir] = contrib
