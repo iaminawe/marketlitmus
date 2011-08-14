@@ -73,7 +73,7 @@ projects[wysiwyg][subdir] = contrib
 ; Need dev until 2.1 is posted and http://drupal.org/node/1034476 is in stable.
 projects[wysiwyg][version] = 2.x-dev
 projects[wysiwyg][patch][] = http://drupal.org/files/issues/624018-138-wysiwyg-entity-exportables.patch
-
+include[]=
 
 ;projects[single_page_website][subdir] = "contrib"
 
