@@ -105,7 +105,7 @@ modules[contrib][] = editablefields
 ;                                  Features
 ; -----------------------------------------------------------------------------
 ; Specify features thusly:
-features[] = home
+features[] = home_feature
 features[] = product_features
 features[] = spotlight_banner
 ;features[] = ckeditor_wysiwyg
