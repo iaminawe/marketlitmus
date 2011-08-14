@@ -105,7 +105,7 @@ modules[contrib][] = editablefields
 ;                                  Features
 ; -----------------------------------------------------------------------------
 ; Specify features thusly:
-features[] = simple_config
+;features[] = simple_config
 features[] = product_features
 features[] = ckeditor_wysiwyg
 
