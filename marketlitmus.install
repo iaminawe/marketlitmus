@@ -5,5 +5,5 @@
  */
 function marketlitmus_install() {
   theme_enable(array('rubik'));
-  variable_set('admin_theme_default', 'rubik');
+  variable_set('theme_default', 'marketlitmus');
 }

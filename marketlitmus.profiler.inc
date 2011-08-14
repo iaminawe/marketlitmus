@@ -108,7 +108,7 @@ modules[contrib][] = editablefields
 features[] = simple_config
 features[] = product_features
 features[] = debut
-features[] = debut_wysiwyg
+features[] = ckeditor_wysiwyg
 
 
 ; -----------------------------------------------------------------------------

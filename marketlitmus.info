@@ -39,5 +39,4 @@ dependencies[] = wysiwyg
 
 dependencies[] = simple_config
 dependencies[] = product_features
-dependencies[] = debut
-dependencies[] = debut_wysiwyg
+dependencies[] = ckeditor_wysiwyg

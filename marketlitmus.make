@@ -37,17 +37,16 @@ projects[pathauto][subdir] = "contrib"
 projects[token][subdir] = "contrib"
 projects[globalredirect][subdir] = "contrib"
 
-projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.x-dev"
+
 projects[webform][subdir] = "contrib"
 
 projects[typogrify][subdir] = "contrib"
 projects[layoutstudio_extras][subdir] = "contrib"
 projects[browserclass][subdir] = "contrib"
 ; projects[securesite][subdir] = "contrib"
-projects[advanced_help][subdir] = "contrib"
-projects[spaces][subdir] = "contrib"
-projects[spaces][version] = "1.x-dev"
+
+projects[ctools][subdir] = "contrib"
+
 
 ;DEV VERSION OF PURL - still to do correct download
 ;git clone --branch 7.x-1.x http://git.drupal.org/sandbox/webflo/1179340.git
@@ -55,9 +54,9 @@ projects[spaces][version] = "1.x-dev"
 ;--------------------
 ; Setup Debut & CKEDITOR from custom feature based on debut wysiwyg
 ;--------------------
-includes[debut] = "http://drupalcode.org/project/debut.git/blob_plain/refs/heads/7.x-1.x:/debut.make.inc"
+;includes[debut] = "http://drupalcode.org/project/debut.git/blob_plain/refs/heads/7.x-1.x:/debut.make.inc"
 
-includes[debut_wysiwyg]="https://github.com/iaminawe/openoutreach/blob/master/profiles/openoutreach/modules/contrib/debut_wysiwyg/debut_wysiwyg.make.inc"
+;includes[ckeditor_wysiwyg]="https://github.com/iaminawe/openoutreach/blob/master/profiles/openoutreach/modules/contrib/ckeditor_wysiwyg/ckeditor_wysiwyg.make.inc"
 
 ; Contrib modules
 projects[debut][subdir] = contrib
@@ -71,8 +70,8 @@ projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0-beta1
 projects[debut][subdir] = contrib
 projects[debut][version] = 1.0-beta2
-projects[debut_wysiwyg][subdir] = contrib
-projects[debut_wysiwyg][version] = 1.0-beta2
+projects[ckeditor_wysiwyg][subdir] = contrib
+projects[ckeditor_wysiwyg][version] = 1.0-beta2
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0-beta8
 projects[features][subdir] = contrib
@@ -116,15 +115,15 @@ projects[editablefields][subdir] = "contrib"
 projects[features][subdir] = "contrib"
 projects[features_plumber][subdir] = "contrib"
 projects[features_override][subdir] = "contrib"
-
 projects[record_feature][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
 projects[context][subdir] = "contrib"
 projects[uuid_features][subdir] = "contrib"
 projects[uuid][subdir] = "contrib"
-
 projects[defaultcontent][version] = "1.0-alpha4"
 projects[defaultcontent][subdir] = "contrib"
+projects[spaces][subdir] = "contrib"
+projects[spaces][version] = "1.x-dev"
 
 ; SEO & SEM
 projects[page_title][subdir] = "contrib"
@@ -146,18 +145,18 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.0-alpha1"
 ;projects[views_attach][subdir] = "contrib"
-;projects[ctools][subdir] = "contrib"
+
 ;projects[semanticviews][subdir] = "contrib"
 ;projects[panels][subdir] = "contrib"
 ;projects[lightbox2][subdir] = "contrib"
 
 ; THEMES			
 projects[layoutstudio][type] = "theme"
-;projects[rubik][type] = "theme"
-;projects[tao][type] = "theme"
+projects[rubik][type] = "theme"
+projects[tao][type] = "theme"
 
-;projects[tao][subdir] = contrib
-;projects[rubik][subdir] = contrib
+projects[tao][subdir] = contrib
+projects[rubik][subdir] = contrib
 
 
 ;--------------------
@@ -171,9 +170,9 @@ projects[devel][subdir] = "contrib"
 ; LIBRARIES
 
 ; CKEditor
-libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.2/ckeditor_3.5.2.tar.gz"
-libraries[ckeditor][directory_name] = "ckeditor"
+;libraries[ckeditor][download][type] = "get"
+;libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.2/ckeditor_3.5.2.tar.gz"
+;libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/zipball/v1.3.16"
