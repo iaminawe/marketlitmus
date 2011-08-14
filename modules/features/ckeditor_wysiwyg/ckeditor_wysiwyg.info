@@ -1,5 +1,5 @@
 core = "7.x"
-dependencies[] = "debut"
+;dependencies[] = "debut"
 dependencies[] = "entity"
 dependencies[] = "features"
 dependencies[] = "media"
