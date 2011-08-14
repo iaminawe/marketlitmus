@@ -36,7 +36,7 @@
 
 name = Market Litmus
 core = 7.x
-theme = Market Litmus
+theme = marketlitmus
 
 
 ; -----------------------------------------------------------------------------
@@ -107,7 +107,6 @@ modules[contrib][] = editablefields
 ; Specify features thusly:
 features[] = simple_config
 features[] = product_features
-features[] = debut
 features[] = ckeditor_wysiwyg
 
 
@@ -155,14 +154,14 @@ roles[manager][name] = Manager
 ;users[superduper][name]   = admin
 ;users[superduper][mail]   = admin@admin
 ;users[superduper][pass]   = 10aa208e7e9e257a3f4fe66d1acf84e8
-;users[superduper][roles]  = Admin,Publisher
+;users[superduper][roles]  = Admin, Manager
 ;users[superduper][status] = 1
 
 users[siteadmin][uid]    = 2
 users[siteadmin][name]   = sitemanager
 users[siteadmin][mail]   = changeme@changeme
 users[siteadmin][pass]   = 10aa208e7e9e257a3f4fe66d1acf84e8
-users[siteadmin][roles]  = Admin,Manager
+users[siteadmin][roles]  = Manager
 users[siteadmin][status] = 1
 
 
@@ -188,16 +187,6 @@ users[siteadmin][status] = 1
 ; So if you thought filters was confusing, wysiwyg is even more so. Hopefully
 ; the example I've outlined below will bring clarity.
 ; -----------------------------------------------------------------------------
-
-input-formats[markdown][name] = Markdown
-input-formats[markdown][default] = 1
-input-formats[markdown][roles] = anonymous user,authenticated user
-input-formats[markdown][filters][markdown][0] = -10
-input-formats[markdown][filters][filter][0] = -7
-input-formats[markdown][filters][filter][1] = -8
-input-formats[markdown][filters][filter][2] = -9
-input-formats[markdown][filters][filter][3] = -6
-input-formats[markdown][allowed-html] = "<a> <p> <em> <strong> <span> <h1> <h2> <h3> <h4> <h5> <blockquote> <cite> <code> <ul> <ol> <li> <dl> <dt> <dd> <img> <table> <thead> <tbody> <tfoot> <th> <tr> <td>"
 
 
 Float Left=left
@@ -226,21 +215,21 @@ variables[theme_settings][toggle_node_info_page] = 0
 ; -----------------------------------------------------------------------------
 ;                                 Permissions
 ; -----------------------------------------------------------------------------
-permissions[access administration pages] = Admin,Publisher
+permissions[access administration pages] = Admin,Manager
 permissions[access content] = anonymous user,authenticated user
 permissions[access user profiles] = Admin
-permissions[administer menu] = Admin,Publisher
-permissions[administer nodes] = Admin,Publisher
+permissions[administer menu] = Admin,Manager
+permissions[administer nodes] = Admin,Manager
 permissions[administer site configuration] = Admin
 permissions[administer users] = Admin
 permissions[change own username] = authenticated user
-permissions[create page content] = Admin,Publisher
+permissions[create page content] = Admin,Manager
 permissions[create users] = Admin
-permissions[delete any page content] = Admin,Publisher
-permissions[delete own page content] = Admin,Publisher
-permissions[edit any page content] = Admin,Publisher
+permissions[delete any page content] = Admin,Manager
+permissions[delete own page content] = Admin,Manager
+permissions[edit any page content] = Admin,Manager
 permissions[flush imagecache] = Admin
-permissions[notify of path changes] = Admin,Publisher
+permissions[notify of path changes] = Admin,Manager
 permissions[search content] = anonymous user
 
 
