@@ -156,9 +156,9 @@ projects[devel][subdir] = "contrib"
 ; LIBRARIES
 
 ; CKEditor
-;libraries[ckeditor][download][type] = "get"
-;libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.2/ckeditor_3.5.2.tar.gz"
-;libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.2/ckeditor_3.5.2.tar.gz"
+libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/zipball/v1.3.16"
