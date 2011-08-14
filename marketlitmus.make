@@ -52,9 +52,6 @@ projects[ctools][subdir] = "contrib"
 ;git clone --branch 7.x-1.x http://git.drupal.org/sandbox/webflo/1179340.git
 
 
-
-
-
 ; Contrib modules
 projects[advanced_help][subdir] = contrib
 projects[advanced_help][version] = 1.0-beta1

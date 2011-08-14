@@ -1,21 +1,13 @@
 <?php
 /**
  * @file
- * product_features.features.inc
+ * spotlight_banner.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function product_features_ctools_plugin_api() {
-  list($module, $api) = func_get_args();
-  if ($module == "context" && $api == "context") {
-    return array("version" => "3");
-  }
-  list($module, $api) = func_get_args();
-  if ($module == "features_plumber" && $api == "features_plumber_records") {
-    return array("version" => "1");
-  }
+function spotlight_banner_ctools_plugin_api() {
   list($module, $api) = func_get_args();
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
@@ -25,7 +17,7 @@ function product_features_ctools_plugin_api() {
 /**
  * Implements hook_views_api().
  */
-function product_features_views_api() {
+function spotlight_banner_views_api() {
   list($module, $api) = func_get_args();
   if ($module == "views" && $api == "views_default") {
     return array("version" => "3.0");
@@ -35,12 +27,12 @@ function product_features_views_api() {
 /**
  * Implements hook_image_default_styles().
  */
-function product_features_image_default_styles() {
+function spotlight_banner_image_default_styles() {
   $styles = array();
 
-  // Exported image style: feature_thumb
-  $styles['feature_thumb'] = array(
-    'name' => 'feature_thumb',
+  // Exported image style: spotlight_imagestyle
+  $styles['spotlight_imagestyle'] = array(
+    'name' => 'spotlight_imagestyle',
     'effects' => array(
       1 => array(
         'label' => 'Scale and crop',
@@ -51,8 +43,8 @@ function product_features_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '200',
-          'height' => '80',
+          'width' => '500',
+          'height' => '300',
         ),
         'weight' => '1',
       ),
@@ -65,12 +57,12 @@ function product_features_image_default_styles() {
 /**
  * Implements hook_node_info().
  */
-function product_features_node_info() {
+function spotlight_banner_node_info() {
   $items = array(
-    'product_feature' => array(
-      'name' => t('Feature'),
+    'spotlight' => array(
+      'name' => t('Spotlight'),
       'base' => 'node_content',
-      'description' => t('Add a product feature'),
+      'description' => t('Add a spotlight item to the front page carousel'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',

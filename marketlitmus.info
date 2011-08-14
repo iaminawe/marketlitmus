@@ -36,6 +36,8 @@ dependencies[] = wysiwyg
 
 ; Custom
 
-dependencies[] = simple_config
+;dependencies[] = simple_config
+dependencies[] = home
 dependencies[] = product_features
-dependencies[] = ckeditor_wysiwyg
+dependencies[] = spotlight_banner
+;dependencies[] = ckeditor_wysiwyg

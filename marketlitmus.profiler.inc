@@ -105,10 +105,10 @@ modules[contrib][] = editablefields
 ;                                  Features
 ; -----------------------------------------------------------------------------
 ; Specify features thusly:
-;features[] = simple_config
+features[] = home
 features[] = product_features
-features[] = ckeditor_wysiwyg
-
+features[] = spotlight_banner
+;features[] = ckeditor_wysiwyg
 
 ; -----------------------------------------------------------------------------
 ;                                   Roles

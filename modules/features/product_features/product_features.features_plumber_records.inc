@@ -5,7 +5,7 @@
  */
 
 /**
- * Implementation of hook_features_plumber_defaults().
+ * Implements hook_features_plumber_defaults().
  */
 function product_features_features_plumber_defaults() {
   $export = array();
