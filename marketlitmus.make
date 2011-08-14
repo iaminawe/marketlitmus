@@ -20,8 +20,8 @@ includes[] = http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.
 projects[boxes][subdir] = contrib
 projects[boxes][version] = 1.0-beta2
 
-;projects[markdown][subdir] = contrib
-;projects[markdown][version] = 1.0-beta1
+projects[markdown][subdir] = contrib
+projects[markdown][version] = 1.0-beta1
 
 ; Creates invalid HTML with preformatted blocks.
 ; http://drupal.org/node/684554
