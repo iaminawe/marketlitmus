@@ -56,14 +56,9 @@ projects[ctools][subdir] = "contrib"
 ;--------------------
 ;includes[debut] = "http://drupalcode.org/project/debut.git/blob_plain/refs/heads/7.x-1.x:/debut.make.inc"
 
-;includes[ckeditor_wysiwyg]="https://github.com/iaminawe/openoutreach/blob/master/profiles/openoutreach/modules/contrib/ckeditor_wysiwyg/ckeditor_wysiwyg.make.inc"
 
-; Contrib modules
-projects[debut][subdir] = contrib
-projects[debut][version] = 1.0-beta2
-projects[features][subdir] = contrib
-projects[features][version] = 1.0-beta2
-projects[features][patch][http://drupal.org/files/issues/features_views_fix-drush-make-1097560-53.patch] = http://drupal.org/files/issues/features_views_fix-drush-make-1097560-53.patch
+
+
 
 ; Contrib modules
 projects[advanced_help][subdir] = contrib
