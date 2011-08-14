@@ -89,7 +89,6 @@ modules[contrib][] = views_exporter
 modules[contrib][] = advanced_help
 modules[contrib][] = features
 modules[contrib][] = pathauto
-modules[contrib][] = markdown
 modules[contrib][] = pathauto
 modules[contrib][] = backup_migrate
 modules[contrib][] = transliteration
@@ -98,6 +97,7 @@ modules[contrib][] = views_bulk_operations
 modules[contrib][] = sweaver
 modules[contrib][] = fontyourface
 modules[contrib][] = editablefields
+
 
 
 
