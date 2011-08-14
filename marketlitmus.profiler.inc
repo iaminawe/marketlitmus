@@ -44,7 +44,7 @@ theme = marketlitmus
 ; your own Install profile's Profiler include. Then everything in this file
 ; would be merged with your Profiler include:
 ; -----------------------------------------------------------------------------
-base = marketlitmus
+;base = marketlitmus
 
 
 ; -----------------------------------------------------------------------------
@@ -188,9 +188,6 @@ users[siteadmin][status] = 1
 ; the example I've outlined below will bring clarity.
 ; -----------------------------------------------------------------------------
 
-
-Float Left=left
-Float Right=right"
 
 
 ; -----------------------------------------------------------------------------
