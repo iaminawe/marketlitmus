@@ -55,16 +55,11 @@ projects[spaces][version] = "1.x-dev"
 ;--------------------
 ; Setup Debut & CKEDITOR from custom feature based on debut wysiwyg
 ;--------------------
-includes[debut] = "http://drupalcode.org/project/debut.git/blob_plain/refs/heads/7.x-1.x:/debut.make.inc"
+;includes[debut] = "http://drupalcode.org/project/debut.git/blob_plain/refs/heads/7.x-1.x:/debut.make.inc"
 
-includes[debut_wysiwyg]="https://github.com/iaminawe/openoutreach/blob/master/profiles/openoutreach/modules/contrib/debut_wysiwyg/debut_wysiwyg.make.inc"
+;includes[debut_wysiwyg]="https://github.com/iaminawe/openoutreach/blob/master/profiles/openoutreach/modules/contrib/debut_wysiwyg/debut_wysiwyg.make.inc"
 
-; Contrib modules
-projects[debut][subdir] = contrib
-projects[debut][version] = 1.0-beta2
-projects[features][subdir] = contrib
-projects[features][version] = 1.0-beta2
-projects[features][patch][http://drupal.org/files/issues/features_views_fix-drush-make-1097560-53.patch] = http://drupal.org/files/issues/features_views_fix-drush-make-1097560-53.patch
+
 
 ; Contrib modules
 projects[advanced_help][subdir] = contrib
@@ -171,9 +166,9 @@ projects[devel][subdir] = "contrib"
 ; LIBRARIES
 
 ; CKEditor
-libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.2/ckeditor_3.5.2.tar.gz"
-libraries[ckeditor][directory_name] = "ckeditor"
+;libraries[ckeditor][download][type] = "get"
+;libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.2/ckeditor_3.5.2.tar.gz"
+;libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/zipball/v1.3.16"
