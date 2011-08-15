@@ -140,7 +140,7 @@ features[] = ckeditor_wysiwyg
 
 ; METHOD 2
 ;roles[manager][rid] = 3
-'roles[manager][name] = Manager
+;roles[manager][name] = Manager
 
 
 ; -----------------------------------------------------------------------------
