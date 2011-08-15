@@ -68,9 +68,9 @@ projects[styles][subdir] = contrib
 projects[styles][version] = 2.0-alpha5
 projects[wysiwyg][subdir] = contrib
 ; Need dev until 2.1 is posted and http://drupal.org/node/1034476 is in stable.
-projects[wysiwyg][version] = 2.x-dev
-projects[wysiwyg][patch][] = http://drupal.org/files/issues/624018-138-wysiwyg-entity-exportables.patch
-include[]=
+;projects[wysiwyg][version] = 2.x-dev
+;projects[wysiwyg][patch][] = http://drupal.org/files/issues/624018-138-wysiwyg-entity-exportables.patch
+
 
 ;projects[single_page_website][subdir] = "contrib"
 
@@ -146,9 +146,9 @@ projects[rubik][subdir] = contrib
 ; Development
 ;--------------------
 
-projects[coder][subdir] = contrib
-projects[coder][version] = 1.0-beta6
-projects[devel][subdir] = "contrib"
+;projects[coder][subdir] = contrib
+;projects[coder][version] = 1.0-beta6
+;projects[devel][subdir] = "contrib"
 
 ; LIBRARIES
 
@@ -162,7 +162,7 @@ libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/zipb
 libraries[colorbox][directory_name] = "colorbox"
 
 libraries[jquerycycle][download][type] = "get"
-libraries[jquerycycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.lite.js"
+libraries[jquerycycle][download][url] = "https://raw.github.com/iaminawe/cycle/master/jquery.cycle.all.min.js"
 libraries[jquerycycle][directory_name] = "jquery.cycle"
 
 libraries[profiler][download][type] = "get"
