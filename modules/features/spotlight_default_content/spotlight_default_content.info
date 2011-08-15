@@ -1,5 +1,6 @@
 core = "7.x"
 dependencies[] = "defaultcontent"
+dependencies[] = "ctools"
 description = "Add a set of 5 default content slides to the front page carousel"
 features[content][] = "sample_spotlight01"
 features[content][] = "sample_spotlight03"
