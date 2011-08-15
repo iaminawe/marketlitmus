@@ -42,5 +42,5 @@ dependencies[] = calls_to_action
 dependencies[] = product_features
 dependencies[] = product_features_defaultcontent
 dependencies[] = spotlight_banner
-dependencies[] = spotlight_banner_defaultcontent
+dependencies[] = spotlight_defaultcontent
 dependencies[] = ckeditor_wysiwyg
