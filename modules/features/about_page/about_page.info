@@ -1,5 +1,6 @@
 core = "7.x"
 dependencies[] = "defaultcontent"
+dependencies[] = "ctools"
 dependencies[] = "menu"
 description = "A sample about page to fill out general info"
 features[content][] = "samplecontent_about"
