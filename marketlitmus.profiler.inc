@@ -115,7 +115,7 @@ features[] = calls_to_action
 features[] = product_features
 features[] = product_features_defaultcontent
 features[] = spotlight_banner
-features[] = spotlight_banner_defaultcontent
+features[] = spotlight_defaultcontent
 features[] = ckeditor_wysiwyg
 
 ; -----------------------------------------------------------------------------
