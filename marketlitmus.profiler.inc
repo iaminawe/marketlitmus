@@ -67,11 +67,12 @@ modules[core][] = path
 modules[core][] = system
 modules[core][] = user
 modules[core][] = toolbar
+modules[core][] = admin
 
 modules-unset[core]=contact
 
 ; Contrib
-modules[contrib][] = admin_menu
+;modules[contrib][] = admin_menu
 ;modules[contrib][] = date_api
 modules[contrib][] = token
 modules[contrib][] = globalredirect
@@ -93,10 +94,13 @@ modules[contrib][] = pathauto
 modules[contrib][] = backup_migrate
 modules[contrib][] = transliteration
 modules[contrib][] = views_bulk_operations
+modules[contrib][] = compact_forms
+modules[contrib][] = jcarousel
 
-modules[contrib][] = sweaver
+;modules[contrib][] = sweaver
 modules[contrib][] = fontyourface
 modules[contrib][] = editablefields
+
 
 
 
@@ -108,7 +112,7 @@ modules[contrib][] = editablefields
 features[] = home_feature
 features[] = product_features
 features[] = spotlight_banner
-;features[] = ckeditor_wysiwyg
+features[] = ckeditor_wysiwyg
 
 ; -----------------------------------------------------------------------------
 ;                                   Roles
@@ -128,11 +132,11 @@ features[] = spotlight_banner
 ; -----------------------------------------------------------------------------
 
 ; METHOD 1
-roles[admin] = Admin
+;roles[admin] = Admin
 
 ; METHOD 2
-roles[manager][rid] = 3
-roles[manager][name] = Manager
+;roles[manager][rid] = 3
+'roles[manager][name] = Manager
 
 
 ; -----------------------------------------------------------------------------
@@ -157,12 +161,12 @@ roles[manager][name] = Manager
 ;users[superduper][roles]  = Admin, Manager
 ;users[superduper][status] = 1
 
-users[siteadmin][uid]    = 2
-users[siteadmin][name]   = sitemanager
-users[siteadmin][mail]   = changeme@changeme
-users[siteadmin][pass]   = 10aa208e7e9e257a3f4fe66d1acf84e8
-users[siteadmin][roles]  = Manager
-users[siteadmin][status] = 1
+;users[siteadmin][uid]    = 2
+;users[siteadmin][name]   = sitemanager
+;users[siteadmin][mail]   = changeme@changeme
+;users[siteadmin][pass]   = 10aa208e7e9e257a3f4fe66d1acf84e8
+;users[siteadmin][roles]  = Manager
+;users[siteadmin][status] = 1
 
 
 ; -----------------------------------------------------------------------------
@@ -233,17 +237,17 @@ permissions[search content] = anonymous user
 ; -----------------------------------------------------------------------------
 ;                                 Nodes types
 ; -----------------------------------------------------------------------------
-node-types[page][type] = page
-node-types[page][name] = Page
-node-types[page][has_body] = 1
-node-types[page][body_label] = Body
-node-types[page][module] = node
-node-types[page][description] = A <em>page</em> is simply what it sounds like - it's a page on your website.
-node-types[page][custom] = 1
-node-types[page][modified] = 1
-node-types[page][locked] = 0
-node-types[page][help] = ''
-node-types[page][min_word_count] = ''
+;node-types[page][type] = page
+;node-types[page][name] = Page
+;node-types[page][has_body] = 1
+;node-types[page][body_label] = Body
+;node-types[page][module] = node
+;node-types[page][description] = A <em>page</em> is simply what it sounds like - it's a page on your website.
+;node-types[page][custom] = 1
+;node-types[page][modified] = 1
+;node-types[page][locked] = 0
+;node-types[page][help] = ''
+;node-types[page][min_word_count] = ''
 
 
 ; -----------------------------------------------------------------------------
