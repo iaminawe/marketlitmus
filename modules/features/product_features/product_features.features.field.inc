@@ -91,77 +91,6 @@ Credibly revolutionize mission-critical niches vis-a-vis real-time relationships
     ),
   );
 
-  // Exported field: 'node-product_feature-field_feature_benefit1'
-  $fields['node-product_feature-field_feature_benefit1'] = array(
-    'field_config' => array(
-      'active' => '1',
-      'cardinality' => '1',
-      'deleted' => '0',
-      'entity_types' => array(),
-      'field_name' => 'field_feature_benefit1',
-      'foreign keys' => array(
-        'format' => array(
-          'columns' => array(
-            'format' => 'format',
-          ),
-          'table' => 'filter_format',
-        ),
-      ),
-      'indexes' => array(
-        'format' => array(
-          0 => 'format',
-        ),
-      ),
-      'module' => 'text',
-      'settings' => array(),
-      'translatable' => '0',
-      'type' => 'text_long',
-    ),
-    'field_instance' => array(
-      'bundle' => 'product_feature',
-      'default_value' => array(
-        0 => array(
-          'value' => 'Appropriately maintain value-added sources and customized methods of empowerment. Conveniently plagiarize unique products via cross-unit schemas.',
-        ),
-      ),
-      'deleted' => '0',
-      'description' => 'Provide a clear description of the benefit this feature of your provides to your customer.
-<i>Eg. This feature saves our customers time by allowing them to manage details in one place</i>',
-      'display' => array(
-        'default' => array(
-          'label' => 'above',
-          'module' => 'text',
-          'settings' => array(),
-          'type' => 'text_default',
-          'weight' => '2',
-        ),
-        'teaser' => array(
-          'label' => 'hidden',
-          'settings' => array(),
-          'type' => 'hidden',
-          'weight' => '3',
-        ),
-      ),
-      'entity_type' => 'node',
-      'field_name' => 'field_feature_benefit1',
-      'label' => 'Customer Benefit',
-      'required' => 0,
-      'settings' => array(
-        'text_processing' => '0',
-        'user_register_form' => FALSE,
-      ),
-      'widget' => array(
-        'active' => 1,
-        'module' => 'text',
-        'settings' => array(
-          'rows' => '3',
-        ),
-        'type' => 'text_textarea',
-        'weight' => '1',
-      ),
-    ),
-  );
-
   // Exported field: 'node-product_feature-field_feature_icon'
   $fields['node-product_feature-field_feature_icon'] = array(
     'field_config' => array(
@@ -320,11 +249,8 @@ Credibly revolutionize mission-critical niches vis-a-vis real-time relationships
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Customer Benefit');
   t('Feature Description');
   t('Icon');
-  t('Provide a clear description of the benefit this feature of your provides to your customer.
-<i>Eg. This feature saves our customers time by allowing them to manage details in one place</i>');
   t('Provide a full description for your feature');
   t('Screenshots');
 

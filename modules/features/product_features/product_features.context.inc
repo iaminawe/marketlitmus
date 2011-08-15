@@ -1,20 +1,20 @@
 <?php
 /**
  * @file
- * feature_product_features.context.inc
+ * product_features.context.inc
  */
 
 /**
- * Implementation of hook_context_default_contexts().
+ * Implements hook_context_default_contexts().
  */
-function feature_product_features_context_default_contexts() {
+function product_features_context_default_contexts() {
   $export = array();
 
   $context = new stdClass;
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
-  $context->name = 'Product Features Home';
-  $context->description = 'A listing page of all the features';
+  $context->name = 'product_features';
+  $context->description = 'A context for the main product features page';
   $context->tag = 'Features';
   $context->conditions = array(
     'views' => array(
@@ -31,9 +31,9 @@ function feature_product_features_context_default_contexts() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('A listing page of all the features');
+  t('A context for the main product features page');
   t('Features');
-  $export['Product Features Home'] = $context;
+  $export['product_features'] = $context;
 
   return $export;
 }

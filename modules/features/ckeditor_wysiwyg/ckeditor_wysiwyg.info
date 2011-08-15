@@ -1,21 +1,13 @@
 core = "7.x"
-;dependencies[] = "debut"
-dependencies[] = "entity"
 dependencies[] = "features"
 dependencies[] = "media"
 dependencies[] = "wysiwyg"
-description = "Provides a CK editor setup and accompanying text formats."
+description = "Provides a manager role, manager input filter and WYSIWYG Editor setup"
 features[filter][] = "manager"
-features[user_permission][] = "manager"
-features[wysiwyg_profile][] = "manager"
-
-name = "CKEditor Feature"
+features[user_permission][] = "use text format manager"
+features[user_role][] = "manager"
+name = "Manager CKEditor Feature"
 package = "Features"
 php = "5.2.4"
-
-; Information added by drupal.org packaging script on 2011-05-11
-;version = "7.x-1.0-beta2"
-;core = "7.x"
-;project = "ckeditor_wysiwyg"
-;datestamp = "1305154615"
-
+project = "ckeditor_wysiwyg"
+version = "7.x-1.1"

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Calls to Action feature.
+ */
+
+include_once('calls_to_action.features.inc');

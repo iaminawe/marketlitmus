@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ckeditor_wysiwyg.features.filter.inc
+ * home_feature.features.filter.inc
  */
 
 /**
  * Implements hook_filter_default_formats().
  */
-function ckeditor_wysiwyg_filter_default_formats() {
+function home_feature_filter_default_formats() {
   $formats = array();
 
   // Exported format: Manager
