@@ -1,6 +1,6 @@
 name = Market Litmus
 core = 7.x
-description = A simple distro for the Market Litmus product. Based on Build Kit & Simple.
+description = A simple distro for the Market Litmus product. 
 
 ; Core
 dependencies[] = block
@@ -16,8 +16,8 @@ dependencies[] = taxonomy
 ; Contrib
 dependencies[] = admin_menu
 dependencies[] = boxes
-dependencies[] = openid
-dependencies[] = openidadmin
+;dependencies[] = openid
+;dependencies[] = openidadmin
 dependencies[] = coder
 dependencies[] = context
 dependencies[] = context_ui
@@ -28,19 +28,21 @@ dependencies[] = features
 dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_ui
-dependencies[] = sweaver
-dependencies[] = fontyourface
+;dependencies[] = sweaver
+;dependencies[] = fontyourface
 dependencies[] = editablefields
 dependencies[] = wysiwyg
 
 
 ; Custom
 
-dependencies[] = home_feature
+dependencies[] = admin_settings
+dependencies[] = wysiwyg_feature
 dependencies[] = about_page
 dependencies[] = calls_to_action
 dependencies[] = product_features
 dependencies[] = product_features_defaultcontent
 dependencies[] = spotlight_banner
-dependencies[] = spotlight_default_content
+dependencies[] = spotlight_defaultcontent
+dependencies[] = home_feature
 dependencies[] = ckeditor_wysiwyg
