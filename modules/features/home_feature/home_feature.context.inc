@@ -85,7 +85,7 @@ function home_feature_context_default_contexts() {
         ),
       ),
     ),
-    'menu' => 'node/8',
+    'menu' => 'node/12',
   );
   $context->condition_mode = 0;
 
