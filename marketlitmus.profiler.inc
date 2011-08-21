@@ -217,7 +217,7 @@ features[] = spotlight_defaultcontent
 ; installation (@see Users for more information on how this is accomplished).
 ; -----------------------------------------------------------------------------
 variables[site_name] = Market Litmus 
-variables[site_mail] = gregg@iaminawe.com
+;variables[site_mail] = gregg@iaminawe.com
 
 variables[site_footer] = Market Litmus Footer
 ;variables[site_frontpage] = node/1
