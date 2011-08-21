@@ -92,7 +92,7 @@ projects[google_analytics_reports][subdir] = "contrib"
 projects[google_analytics][subdir] = "contrib"
 
 ;UI
-projects[editablefields][subdir] = "contrib
+projects[editablefields][subdir] = "contrib"
 projects[jcarousel][subdir] = "contrib"
 projects[compact_forms][subdir] = "contrib"
 
