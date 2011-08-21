@@ -1,28 +1,29 @@
 <?php
 /**
  * @file
- * ckeditor_wysiwyg.features.filter.inc
+ * wysiwyg_feature.features.filter.inc
  */
 
 /**
- * Implements hook_filter_default_formats().
+ * Implementation of hook_filter_default_formats().
  */
-function ckeditor_wysiwyg_filter_default_formats() {
+function wysiwyg_feature_filter_default_formats() {
   $formats = array();
 
-  // Exported format: Manager
-  $formats['manager'] = array(
-    'format' => 'manager',
-    'name' => 'Manager',
+  
+  // Exported format: Wysiwyg editor
+  $formats['wysiwyg_manager'] = array(
+    'format' => 'wysiwyg_manager',
+    'name' => 'Site Content',
     'cache' => '1',
     'status' => '1',
-    'weight' => '-8',
+    'weight' => '-9',
     'filters' => array(
       'filter_html' => array(
         'weight' => '-10',
         'status' => '1',
         'settings' => array(
-          'allowed_html' => '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <p> <br> <u> <h2> <h3> <h4><img><div><table><td><tr><th>',
+          'allowed_html' => '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <p> <br> <u> <h2> <h3> <h4> <table> <thead> <tbody> <tr> <td><img>',
           'filter_html_help' => 1,
           'filter_html_nofollow' => 0,
         ),
@@ -38,6 +39,11 @@ function ckeditor_wysiwyg_filter_default_formats() {
         'settings' => array(
           'filter_url_length' => '72',
         ),
+      ),
+      'media_filter' => array(
+        'weight' => '0',
+        'status' => '1',
+        'settings' => array(),
       ),
     ),
   );

@@ -1,0 +1,23 @@
+core = "7.x"
+dependencies[] = "admin_settings"
+dependencies[] = "entity"
+dependencies[] = "features"
+dependencies[] = "media"
+dependencies[] = "wysiwyg"
+description = "Provides a Manager WYSIWYG editors and accompanying text formats."
+features[filter][] = "wysiwyg_manager"
+
+features[user_permission][] = "use text format wysiwyg_manager"
+
+features[wysiwyg_profile][] = "wysiwyg_manager"
+
+name = "WYSIWYG Feature"
+package = "Features"
+php = "5.2.4"
+
+; Information added by drupal.org packaging script on 2011-08-17
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "wysiwyg_feature"
+datestamp = "1313540096"
+

@@ -13,7 +13,7 @@ $content['ctaemailaddress'] = (object)array(
   'exported_path' => 'e-mail-call-action',
   'webform' => array(
     'confirmation' => '<p>Thank you for submitting your e-mail.</p><p>We will be in touch as soon as we are ready to send out some more invitations</p>',
-    'confirmation_format' => 'wysiwyg_editor',
+    'confirmation_format' => 'wysiwyg_manager',
     'redirect_url' => '<confirmation>',
     'status' => '1',
     'block' => '1',
@@ -119,7 +119,7 @@ $content['ctaemailaddress'] = (object)array(
 	Please leave your e-mail address if you are interested in being invited to our private beta</p>
 ',
         'summary' => '',
-        'format' => 'wysiwyg_editor',
+        'format' => 'wysiwyg_manager',
         'safe_value' => ' <p>
 	Please leave your e-mail address if you are interested in being invited to our private beta</p>
  ',

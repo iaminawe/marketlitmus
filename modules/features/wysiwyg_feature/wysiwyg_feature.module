@@ -1,13 +1,13 @@
 <?php
 
-include_once('ckeditor_wysiwyg.features.inc');
+include_once('wysiwyg_feature.features.inc');
 
 /**
  * Implements hook_wysiwyg_editor_settings_alter().
  *
  * Don't disable native spellchecker.
  */
-function ckeditor_wysiwyg_wysiwyg_editor_settings_alter(&$settings, $context) {
+function wysiwyg_feature_wysiwyg_editor_settings_alter(&$settings, $context) {
   if ($context['profile']->editor == 'ckeditor') {
     $settings['disableNativeSpellChecker'] = FALSE;
   }

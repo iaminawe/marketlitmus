@@ -1,32 +1,32 @@
 <?php
 /**
  * @file
- * about_page.features.content_menu_links.inc
+ * home_feature.features.menu_links.inc
  */
 
 /**
- * Implements hook_content_menu_links_defaults().
+ * Implements hook_menu_default_menu_links().
  */
-function about_page_content_menu_links_defaults() {
+function home_feature_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu:node/7
-  $menu_links['main-menu:node/7'] = array(
+  // Exported menu link: main-menu:node/8
+  $menu_links['main-menu:node/8'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node-name/samplecontent_about',
+    'link_path' => 'node/8',
     'router_path' => 'node/%',
-    'link_title' => 'About',
+    'link_title' => 'Home',
     'options' => array(),
     'module' => 'menu',
     'hidden' => '0',
     'external' => '0',
     'has_children' => '0',
     'expanded' => '0',
-    'weight' => '-47',
+    'weight' => '-50',
   );
   // Translatables
   // Included for use with string extractors like potx.
-  t('About');
+  t('Home');
 
 
   return $menu_links;

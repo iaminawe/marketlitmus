@@ -10,8 +10,8 @@
 function spotlight_default_content_content_defaults() {
 $content = array();
 $content['sample_spotlight01'] = (object)array(
-  'exported_path' => 'catchy-action-statment-number-1',
-  'title' => 'Catchy action statment number 1',
+  'exported_path' => 'catchy-action-statement-number-1',
+  'title' => 'Catchy action statement number 1',
   'status' => '1',
   'promote' => '1',
   'sticky' => '0',

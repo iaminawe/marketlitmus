@@ -1,0 +1,18 @@
+core = "7.x"
+admin_settingsf = "1.0-draft"
+dependencies[] = "features"
+description = "Core components for the admin_settings features set."
+features[user_role][] = "administrator"
+features[user_role][] = "manager"
+
+kitf = "1.0-draft"
+name = "admin_settings"
+package = "Features"
+php = "5.2.0"
+
+; Information added by drupal.org packaging script on 2011-08-17
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "admin_settings"
+datestamp = "1313540086"
+

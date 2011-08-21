@@ -52,7 +52,7 @@ $content['samplecontent_about'] = (object)array(
 	Completely grow bleeding-edge resources vis-a-vis timely internal or &quot;organic&quot; sources. Distinctively leverage other&#39;s bleeding-edge methods of empowerment vis-a-vis leading-edge outsourcing. Assertively harness quality experiences via interoperable web-readiness.</p>
 ',
         'summary' => '',
-        'format' => 'wysiwyg_editor',
+        'format' => 'wysiwyg_manager',
         'safe_value' => ' <h2>
 	Who?</h2>
 <p>
