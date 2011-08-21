@@ -67,9 +67,8 @@ projects[media][version] = 1.0-beta4
 projects[styles][subdir] = contrib
 projects[styles][version] = 2.0-alpha5
 projects[wysiwyg][subdir] = contrib
-; Need dev until 2.1 is posted and http://drupal.org/node/1034476 is in stable.
-;projects[wysiwyg][version] = 2.x-dev
-;projects[wysiwyg][patch][] = http://drupal.org/files/issues/624018-138-wysiwyg-entity-exportables.patch
+projects[wysiwyg][version] = 2.1
+projects[wysiwyg][patch][http://drupal.org/files/issues/wysiwyg-7.x-2.x-entity-exportables-624018-208_drush_make.patch] = http://drupal.org/files/issues/wysiwyg-7.x-2.x-entity-exportables-624018-208_drush_make.patch
 
 
 ;projects[single_page_website][subdir] = "contrib"
@@ -154,9 +153,9 @@ projects[devel][subdir] = "contrib"
 
 ; LIBRARIES
 
-; CKEditor
+; Ckeditor
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.5.2/ckeditor_3.5.2.tar.gz"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.1/ckeditor_3.6.1.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"
 
 libraries[colorbox][download][type] = "get"
