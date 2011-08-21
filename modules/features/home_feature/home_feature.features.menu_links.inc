@@ -11,9 +11,9 @@ function home_feature_menu_default_menu_links() {
   $menu_links = array();
 
   // Exported menu link: main-menu:node/8
-  $menu_links['main-menu:node/8'] = array(
+  $menu_links['main-menu:node/12'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'node/8',
+    'link_path' => 'node/12',
     'router_path' => 'node/%',
     'link_title' => 'Home',
     'options' => array(),
