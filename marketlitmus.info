@@ -45,4 +45,3 @@ dependencies[] = product_features_defaultcontent
 dependencies[] = spotlight_banner
 dependencies[] = spotlight_defaultcontent
 dependencies[] = home_feature
-dependencies[] = ckeditor_wysiwyg
