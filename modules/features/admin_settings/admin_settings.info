@@ -4,7 +4,6 @@ dependencies[] = "features"
 description = "Core components for the admin_settings features set."
 
 features[variable][] = "default_nodes_main"
-features[variable][] = "site_frontpage"
 features[variable][] = "site_name"
 features[variable][] = "site_slogan"
 features[variable][] = "theme_marketlitmus_settings"
