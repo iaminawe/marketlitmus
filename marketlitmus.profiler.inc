@@ -109,14 +109,21 @@ modules[contrib][] = editablefields
 ;                                  Features
 ; -----------------------------------------------------------------------------
 ; Specify features thusly:
+
+features-unset[]=simple_config
+
+features[] = admin_settings
+features[] = wysiwyg_feature
 features[] = home_feature
 features[] = about_page
 features[] = calls_to_action
 features[] = product_features
 features[] = product_features_defaultcontent
 features[] = spotlight_banner
-features[] = spotlight_default_content
-features[] = ckeditor_wysiwyg
+features[] = spotlight_defaultcontent
+
+
+
 
 ; -----------------------------------------------------------------------------
 ;                                   Roles
@@ -213,7 +220,7 @@ variables[site_name] = Market Litmus
 variables[site_mail] = gregg@iaminawe.com
 
 variables[site_footer] = Market Litmus Footer
-variables[site_frontpage] = node/1
+;variables[site_frontpage] = node/1
 variables[theme_settings][toggle_node_info_page] = 0
 
 
@@ -257,10 +264,10 @@ permissions[search content] = anonymous user
 ; -----------------------------------------------------------------------------
 ;                                    Nodes
 ; -----------------------------------------------------------------------------
-nodes[front][type] = page
-nodes[front][title] = Isn't Profiler nifty?
-nodes[front][uid] = 2
-nodes[front][body] = <p>Donec vel ipsum elit. In rutrum, ante at fringilla pharetra, mi justo fermentum risus; eget commodo est mi lobortis augue. Proin fringilla malesuada semper. Ut velit sapien, condimentum vel faucibus ut, aliquam quis dui? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus vulputate fringilla enim, non convallis nibh lacinia at. Etiam fermentum, lectus ac sagittis volutpat, est augue tincidunt mi, et consectetur orci nisi sit amet sapien. Ut nisi nunc, molestie quis sollicitudin at, dignissim eget nisl? Sed vitae sem lectus. Curabitur viverra laoreet magna. Sed eget sapien tellus, eu tempor purus. Proin dignissim, lacus vitae venenatis porttitor, justo libero rhoncus felis, nec dictum nisl mi vitae nisi. Maecenas tincidunt eros at turpis sollicitudin nec viverra enim condimentum. Sed nec enim justo. In tristique risus dui; ac egestas mi. Proin at arcu sed enim eleifend ornare eu at arcu. Curabitur ullamcorper, ipsum eu imperdiet pharetra, mauris lorem hendrerit metus, in consectetur mauris est iaculis eros. Quisque euismod hendrerit metus ullamcorper tempus! Cras gravida ornare arcu vitae commodo. In hac habitasse platea turpis duis.</p>
+;nodes[front][type] = page
+;nodes[front][title] = Isn't Profiler nifty?
+;nodes[front][uid] = 2
+;nodes[front][body] = <p>Donec vel ipsum elit. In rutrum, ante at fringilla pharetra, mi justo fermentum risus; eget commodo est mi lobortis augue. Proin fringilla malesuada semper. Ut velit sapien, condimentum vel faucibus ut, aliquam quis dui? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus vulputate fringilla enim, non convallis nibh lacinia at. Etiam fermentum, lectus ac sagittis volutpat, est augue tincidunt mi, et consectetur orci nisi sit amet sapien. Ut nisi nunc, molestie quis sollicitudin at, dignissim eget nisl? Sed vitae sem lectus. Curabitur viverra laoreet magna. Sed eget sapien tellus, eu tempor purus. Proin dignissim, lacus vitae venenatis porttitor, justo libero rhoncus felis, nec dictum nisl mi vitae nisi. Maecenas tincidunt eros at turpis sollicitudin nec viverra enim condimentum. Sed nec enim justo. In tristique risus dui; ac egestas mi. Proin at arcu sed enim eleifend ornare eu at arcu. Curabitur ullamcorper, ipsum eu imperdiet pharetra, mauris lorem hendrerit metus, in consectetur mauris est iaculis eros. Quisque euismod hendrerit metus ullamcorper tempus! Cras gravida ornare arcu vitae commodo. In hac habitasse platea turpis duis.</p>
 
 
 ; -----------------------------------------------------------------------------
